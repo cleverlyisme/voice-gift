@@ -7,8 +7,6 @@ const environments = {
     process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
   FIREBASE_APP_ID: process.env.REACT_APP_FIREBASE_APP_ID,
   FIREBASE_MEASUREMENT_ID: process.env.REACT_APP_MEASUREMENT_ID,
-  TELEGRAM_TOKEN: process.env.REACT_APP_TELEGRAM_TOKEN,
-  TELEGRAM_CHAT_ID: process.env.REACT_APP_TELEGRAM_CHAT_ID,
 };
 
 export default environments;

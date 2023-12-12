@@ -52,7 +52,11 @@ const Login = () => {
             flexDirection="column"
           >
             <Box flex={1} display="flex" flexDirection="column" gap={2}>
-              <QRCode value="#" size={80} style={{ borderRadius: 4 }} />
+              <QRCode
+                value="https://voice-gift-87246.web.app/"
+                size={80}
+                style={{ borderRadius: 4 }}
+              />
             </Box>
             <Typography fontSize="50px" fontWeight={600} color="white">
               VoiceGift
